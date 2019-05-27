@@ -1,0 +1,10 @@
+
+<h1>
+  <b>Zadanie:</b>
+  <%=h @task.tekst %>
+</h1>
+
+
+<p><%= link_to 'Edit', edit_task_path(@task) %> </p>
+<p><%= link_to 'Delite', task_path(@task), method: :delete, data: { confirm: "Are you sure?" } %> </p>
+<p><%= link_to 'Back', tasks_path %></p>

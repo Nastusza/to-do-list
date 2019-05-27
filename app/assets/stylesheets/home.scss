@@ -1,0 +1,41 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+li {
+  background-color: #B0C4DE;
+  line-height: 4em;
+  padding-left: 15px;
+  list-style-type: none;
+  display: block;
+  height: 4em;
+  width: 600px;
+  border: 1px solid #000099;
+  margin: 0 0 20px 0;
+  font-family: 'Times new Roman';
+  font-size: 18px;
+  color: #000099;
+  text-align: left;
+
+}
+
+h1 {
+    font-family: 'Courgette';
+    font-size: 52px;
+    color: #000099;
+    margin:60px 20px 20px 30px;
+}
+
+p {
+  font-family: 'Courgette';
+  font-size: 22px;
+  color: #000099;
+  margin:0 0 20px 30px;
+}
+
+p1 {
+  font-family: 'Courgette';
+  font-size: 18px;
+  color: #000099;
+  margin-left: 600px
+}

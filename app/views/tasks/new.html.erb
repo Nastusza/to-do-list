@@ -1,0 +1,7 @@
+<h1>Dodaj zadanie</h1>
+<%= form_for @task do |form| %>
+  Tekst:
+  <%= form.text_field :tekst %>
+  <br />
+  <%= form.submit %>
+<% end %>

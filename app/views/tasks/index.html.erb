@@ -1,0 +1,17 @@
+
+      <center><h1>Lista zadań</h1></center>
+      <i><center><p>póki nie skończysz jednej rzeczy <br /> nie zaczynaj następnej</p></center></i>
+
+
+
+      <ul><center>
+
+        <% for task in @tasks %>
+        <li><input type="checkbox"><%= link_to(task.tekst, task_path(task)) %></li>
+
+  <% end %>
+      </ul></center>
+
+<p1><center>
+<%= link_to "Dodaj nowy", new_task_path %>
+</p1></center>

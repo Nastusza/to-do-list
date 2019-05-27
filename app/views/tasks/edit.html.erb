@@ -1,0 +1,15 @@
+<h1>Edytuj zadanie</h1>
+
+<%= form_for(@task) do |form| %>
+
+
+<p>
+  <%= form.text_field :tekst %>
+</p>
+<p>
+  <%= form.submit "Update" %>
+</p>
+<% end %>
+
+<p><%= link_to 'Show', @task %> </p>
+<p><%= link_to 'Back', tasks_path %></p>
